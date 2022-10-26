@@ -74,5 +74,8 @@ curl -X POST \
 ```
 
 TODO
-1. Falta implementar os testes unitários
-2. Criar endpoints para gerenciar lista de produtos favorito de um determinado cliente
+1. configurar swagger
+2. Dockerizar api e consumidor de novos cadastros
+3. Criar validações
+4. Implementar os testes unitários
+5. Criar casos de uso para gerenciar lista de produtos favoritos de um determinado cliente
