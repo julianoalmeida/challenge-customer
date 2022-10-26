@@ -72,3 +72,7 @@ curl -X POST \
     "email": "fabianoaaa1s2ssilvaa@gmail.com"
   }'
 ```
+
+TODO
+1. Falta implementar os testes unitários
+2. Criar endpoints para gerenciar lista de produtos favorito de um determinado cliente
