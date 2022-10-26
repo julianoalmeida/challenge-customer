@@ -24,7 +24,7 @@ Nesse projeto teremos uma API de clientes, utilizando a Clean Architecture para 
 Clonar o repositório:
 
 ```bash 
-git clone https://github.com/julianoalmeida/challenge_api.git
+git clone https://github.com/julianoalmeida/challenge-customer.git
 ```
 
 Na raiz do projeto executar os comandos abaixo:
