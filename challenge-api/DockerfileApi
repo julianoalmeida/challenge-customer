@@ -1,0 +1,11 @@
+FROM openjdk:17-alpine
+
+MAINTAINER julianoasilvaa
+
+ADD challenge-api-boot*.zip /challenge-api.zip
+
+RUN unzip challenge-api.zip && rm -rf *.zip && mv challenge-api-* challenge-api
+
+EXPOSE 80 443
+
+CMD /challenge-api/bin/challenge-api

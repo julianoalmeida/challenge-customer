@@ -1,0 +1,11 @@
+FROM openjdk:17-alpine
+
+MAINTAINER julianoasilvaa
+
+ADD challenge-consumer-boot*.zip /challenge-consumer.zip
+
+RUN unzip challenge-consumer.zip && rm -rf *.zip && mv challenge-consumer-* challenge-consumer
+
+EXPOSE 80 443
+
+CMD /challenge-consumer/bin/challenge-consumer
